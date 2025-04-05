@@ -94,7 +94,7 @@ Contributions, bug fixes, and improvements are welcome!
    ```
 3. Commit your changes:
    ```bash
-   git commit -am 'Add new feature
+   git commit -am 'Add new feature'
    ```
 4. Push to the branch:
    ```bash
