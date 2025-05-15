@@ -12,18 +12,24 @@ MPU6050Aries is an Arduino library designed for Aries boards (or other Vega/RISC
 
 ## Installation
 
-1. **Clone or Download the Repository:**
-   - **Clone with Git:**
-     ```bash
-     git clone https://github.com/ShahazadAbdulla/MPU6050Aries.git
-     ```
-   - **Download as ZIP:**  
-     Go to the repository page on GitHub and click the green **Code** button, then **Download ZIP**.
+### Option 1: Via Arduino Library Manager (Recommended)
 
-2. **Install in Arduino IDE:**
-   - Extract the folder and rename it to `MPU6050Aries` (if it isn’t already).
-   - Copy the `MPU6050Aries` folder into your Arduino libraries directory (typically `~/Documents/Arduino/libraries`).
-   - Restart the Arduino IDE.
+1. Open the Arduino IDE.
+2. Go to `Sketch` -> `Include Library` -> `Manage Libraries...`.
+3. Search for "MPU6050Aries".
+4. Click on it, select the latest version, and click "Install".
+
+### Option 2: Manual Installation (Clone or Download ZIP)
+
+1.  **Clone with Git:**
+    ```bash
+    git clone https://github.com/ShahazadAbdulla/mpu6050-aries-library.git
+    ```
+    OR
+    **Download as ZIP:** Go to the repository page on GitHub, click the green "Code" button, then "Download ZIP".
+2.  Rename the extracted folder to `MPU6050Aries` (if it isn't already).
+3.  Copy the `MPU6050Aries` folder into your Arduino libraries directory (typically `~/Documents/Arduino/libraries` on Linux/macOS or `My Documents\Arduino\libraries` on Windows).
+4.  Restart the Arduino IDE.
 
 ## Usage
 
